@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>OpenALPR Browser Demo</title>
+  <title>Petrol Ai</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://code.getmdl.io/1.3.0/material.grey-light_blue.min.css" rel="stylesheet" />
   <link href="css/app.css" rel="stylesheet" />
-  <link href="favicon.png?v=2" id="favicon" rel="shortcut icon" />
+  <link href="favicon.png?" id="favicon" rel="shortcut icon" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js" type="text/javascript" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js" type="text/javascript"
+    defer></script>
   <script src="https://code.getmdl.io/1.3.0/material.min.js" type="text/javascript" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript" defer></script>
 
@@ -29,18 +30,17 @@
 <body>
 
   <div>
-    <i class="material-icons">photo_camera</i>
-    <span class="mdl-typography--headline">OpenALPR Browser Demo</span>
+    <img src="./petroai.png" alt="">
     <h5>Pick/Upload an image of a car, preferably one with a licence plate.</h5>
   </div>
-  <div>
-    <input type="file" id="file-upload-input" class="">
+  <div style="display: flex">
+    <input type="file" id="file-upload-input" class="" style="width: 50%">
+    <button onclick="location.reload(true)" style="margin-left: 30px; height:20px; width: 50px;">clear</button>
   </div>
-  <div>
-    <img id="uploadedImage" src="" class="">
+  <div style="display:flex;">
+    <img id="uploadedImage" src="" class="" style="width: 50%;">
+    <div id="messages" style="margin-left: 30px;"></div>
   </div>
-  <div id="messages"></div>
-
 </body>
 
 </html>

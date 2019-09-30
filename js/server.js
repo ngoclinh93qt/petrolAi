@@ -3,5 +3,5 @@
  */
 
 var server = {
-  'secretKey': 'sk_e553da2e80eb74dccb4e8d81'
+  'secretKey': 'sk_44a76776aeb828f1f06bce1f'
 }
