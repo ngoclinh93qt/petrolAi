@@ -24,7 +24,7 @@ function OpenALPRAdapterDemo () {
   }
 
   var runOpenALPR = function (input) {
-    appendMessage('Please wait while OpenALPR is queried...')
+    appendMessage('Please wait while Petrol AI is queried...')
     showImage(input)
   }
 
